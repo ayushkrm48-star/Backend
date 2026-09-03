@@ -19,7 +19,7 @@ app.get('/' , (request , response) => {
 // })
 
 app.listen(process.env.PORT , () => {
-    console.log(`App is Listening on ${process.env.PORT}`);ah
+    console.log(`App is Listening on ${process.env.PORT}`);
 })
 // Server start karo aur port 3000 par incoming requests ka wait karo
 
