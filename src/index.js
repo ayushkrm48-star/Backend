@@ -1,7 +1,6 @@
 
 import 'dotenv/config';
-import express from "express"
-const app = express();
+import app from "./app.js"
 import connectDB from "./db/index.js";
 
 // method1 of connecting to the database
@@ -33,5 +32,8 @@ connectDB()
         console.log(`App is Listening on the PORT : ${process.env.PORT}`);
     })
 })
-.catch()
+.catch((error) => {
+    console.error("Database connection failed:", error);
+    process.exit(1);
+});
 

@@ -1,0 +1,16 @@
+$kind: collection
+name: User
+description: ""
+variables:
+  - key: json_web_token_09nq
+    secret: true
+    disabled: false
+  - key: json_web_token_03up
+    secret: true
+    disabled: false
+  - key: json_web_token_0169
+    secret: true
+    disabled: false
+  - key: json_web_token_07t1
+    secret: true
+    disabled: false

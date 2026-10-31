@@ -39,4 +39,13 @@ app.use(express.static("public"));
 // we have registered the cookie parser middleware which will parse the cookies from the request and make it available in the req.cookies object
 app.use(cookieParser());
 
+
+
+// now we will import the routes 
+import userRoute from "./routes/user.routes.js"
+
+// now we will the mount the route / register the route
+
+app.use("/api/v1/users" , userRoute);
+
 export default app;

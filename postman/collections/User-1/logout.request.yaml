@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{server}}/users/logout"
+method: POST
+headers:
+  - key: Cookie
+    value: accessToken={{json_web_token_09nq}}; refreshToken={{json_web_token_03up}}
+    disabled: true
+order: 3000

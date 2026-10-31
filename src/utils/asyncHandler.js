@@ -2,7 +2,7 @@
 
 // for that we will use higher order function , A higher-order function is a function that does at least one of these two things:
 // 1. Kisi doosre function ko argument ke roop mein accept karta hai.
-// 2. Kisi doosre function ko return karta hai.
+// 2. Kisi doosre function ko return karta hai.  
 
 // const asyncHandler = (fn) => {
 //     return async(req , res , next ) => 
@@ -30,5 +30,7 @@ const asyncHandler = (fn) => {
         })
     }
 }
+
+export default asyncHandler;
 
 

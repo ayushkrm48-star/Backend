@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{server}}/users/refresh-token"
+method: POST
+headers:
+  Cookie: refreshToken={{json_web_token_07t1}}
+order: 4000

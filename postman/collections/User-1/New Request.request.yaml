@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{server}}/users/change-password"
+method: PATCH
+body:
+  type: json
+  content: |-
+    {
+        "oldPassword" : "1234",
+        "newPassword" : "12345"
+    }
+order: 5000
